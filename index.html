@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colourful Flask Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1 style="color: #8A2BE2;">Welcome to my Website</h1>  <!-- Purple heading --> 
+        <nav>
+            <ul>
+                <li><a href="/about" style="color: #D8BFD8;">About</a></li> <!-- Light pink links -->
+                <li><a href="/contact" style="color: #D8BFD8;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 style="color: #8A2BE2;">Welcome to my website!</h2>  <!-- Purple heading --> 
+            <p>This is a modern and stylish website built with Flask and CSS. 
+            It showcases the power of web development technologies to create visually appealing and interactive experiences.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p style="color: #FFC0CB; text-align: center;">&copy; 2024 My Website. i have rights?</p> <!-- Light pink footer -->
+    </footer>
+</body>
+</html>
